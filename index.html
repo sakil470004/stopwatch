@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>My Timer</title>
+    <style>
+        * {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="flex justify-center items-center text-center h-[70vh] my-10">
+        <div>
+            <h1 class="text-8xl">My Timer</h1>
+            <div>
+                <h1 id="text-time" class="text-7xl  text-red-600 py-5">00:00:00</h1>
+                <div class="grid grid-cols-3 gap-6">
+                    <button id="btn-reset" class="text-4xl  bg-blue-400 hover:bg-violet-500 text-black py-4 px-7 rounded-2xl ">Reset</button>
+                    <button id="btn-stop" class="text-4xl  bg-red-500 hover:bg-red-600 text-white py-4 px-7 rounded-2xl ">Stop</button>
+                    <button id="btn-start" class="text-4xl  bg-blue-500 text-white hover:bg-violet-600 py-4 px-7 rounded-2xl ">Start</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="time.js"></script>
+</body>
+
+</html>
+
+\
